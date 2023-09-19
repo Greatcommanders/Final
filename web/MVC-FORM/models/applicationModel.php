@@ -1,0 +1,63 @@
+<?php
+
+use Illuminate\Database\Eloquent\Model;
+
+class ApplicationModel extends Model
+{
+    protected $table = 'research_application';
+    protected $fillable=[
+        'request_id',
+        'study_title',
+        'study_type',
+        'researcher_full_name_1',
+        'researcher_email_1',
+        'researcher_department_1',
+        'researcher_institute_1',
+        'researcher_address_1',
+        'researcher_phone_1',
+        'researcher_full_name_2',
+        'researcher_institute_2',
+        //'supervisor_full_name',
+        //'supervisor_email',
+        //'supervisor_department',
+        //'supervisor_institute',
+        //'supervisor_address',
+        //'supervisor_phone',
+        'data_collection_institution_1',
+        'data_collection_institution_2',
+        'other_institution',
+        'expected_start_date',
+        'expected_end_date',
+        'data_collection',
+        'study_support',
+        'funding_institution',
+        'other_funding_institution',
+        'ethical_approval',
+        'application_status',
+        'protocol_number',
+        'new_expected_completed_date',
+        'reporting_changes_protocol_number',
+        'changes_description',
+        'unexpected_situations',
+        'study_purpose',
+        'collection_methods',
+        'study_secrecy',
+        'approval',
+        'negative_effects',
+        'number_of_participants',
+        'control_group',
+        'study_participants',
+        'children_verbal_consent',
+        'pupils_verbal_consent',
+        'consent',
+        'other_study_participants',
+        'participation_condition',
+        'participation_invitation',
+        'used_methods',
+        'other_used_methods',
+        'work_contributions',
+        'supervisor',
+        'researcher',
+    ];
+}
+
